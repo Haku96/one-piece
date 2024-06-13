@@ -12,8 +12,8 @@ import './custom.css'
 export default {
     ...DefaultTheme,
     Layout: NewLayout,
+    lastUpdated: true,
     enhanceApp({ app }) {
-        // register global compoment
         app.component('Tags', Tags)
         app.component('Category', Category)
         app.component('Archives', Archives)

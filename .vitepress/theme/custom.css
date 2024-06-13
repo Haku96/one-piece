@@ -183,6 +183,10 @@ h3 {
     font-family: var(--date-font-family);
 }
 
+.titles {
+    line-height: 28px;
+}
+
 .post-info {
     font-size: 12px;
 }
