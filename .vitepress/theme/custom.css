@@ -39,14 +39,6 @@
 .vp-doc p {
     font-size: 0.9375rem;
 }
-.title {
-    color: var(--vp-c-text-1);
-    font-size: 1.5rem !important;
-    letter-spacing: 1px;
-    font-weight: 600 !important;
-    text-transform: uppercase;
-    font-family: var(--date-font-family);
-}
 
 .content a[rel~='noreferrer']:link,
 a[rel~='noreferrer']:visited {
@@ -181,10 +173,6 @@ h3 {
 .date {
     color: var(--date-color);
     font-family: var(--date-font-family);
-}
-
-.titles {
-    line-height: 28px;
 }
 
 .post-info {
